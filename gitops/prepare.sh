@@ -25,3 +25,5 @@ echo -n $SSH_KEY_ID > $HOME/key_ids.txt
 # Check the keys exist correctly:
 echo "HOME: $HOME"
 
+cat $HOME/.ssh/id_rsa.pub
+stat $HOME/.ssh/id_rsa
