@@ -1,0 +1,12 @@
+language: ruby
+
+sudo: false
+
+#services:
+#  - docker
+
+install:
+- ./gitops/prepare.sh
+
+script:
+- ./gitops/deploy.sh
